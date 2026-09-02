@@ -173,9 +173,16 @@ position = Vector2(45, -53)
 script = null
 
 [node name="Bottom Boundary" type="StaticBody2D" parent="Test_Player"]
-position = Vector2(362.847, 179.957)
+position = Vector2(362.847, 273.535)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Test_Player/Bottom Boundary"]
+shape = SubResource("WorldBoundaryShape2D_wrm1d")
+
+[node name="Left Boundry" type="StaticBody2D" parent="Test_Player"]
+position = Vector2(-1156.58, 14.3966)
+rotation = -1.56377
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Test_Player/Left Boundry"]
 shape = SubResource("WorldBoundaryShape2D_wrm1d")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
