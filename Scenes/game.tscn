@@ -1,50 +1,80 @@
-[gd_scene load_steps=6 format=4 uid="uid://ccwfm5nyrk67j"]
+[gd_scene load_steps=7 format=4 uid="uid://ccwfm5nyrk67j"]
 
 [ext_resource type="PackedScene" uid="uid://bdydlrws8jfnp" path="res://Scenes/level_1.tscn" id="1_ebmjs"]
 [ext_resource type="PackedScene" uid="uid://g7k0dw4hf3pb" path="res://Scenes/test_player.tscn" id="2_qxrlw"]
 [ext_resource type="Texture2D" uid="uid://hlclfoosa5ks" path="res://Assets/sprites/world_tileset.png" id="3_wrm1d"]
 
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_wrm1d"]
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3dryh"]
 texture = ExtResource("3_wrm1d")
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:0/0 = 0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 4:0/0 = 0
+4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 5:0/0 = 0
+5:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 6:0/0 = 0
+6:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 7:0/0 = 0
+7:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 8:0/0 = 0
+8:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 9:0/0 = 0
 10:0/0 = 0
 11:0/0 = 0
 0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:1/0 = 0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 2:1/0 = 0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:1/0 = 0
+3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 4:1/0 = 0
+4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 5:1/0 = 0
+5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 6:1/0 = 0
+6:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 7:1/0 = 0
+7:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 8:1/0 = 0
+8:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 9:1/0 = 0
 10:1/0 = 0
 11:1/0 = 0
 0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:2/0 = 0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 2:2/0 = 0
+2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 3:2/0 = 0
+3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 4:2/0 = 0
+4:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 5:2/0 = 0
+5:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 6:2/0 = 0
+6:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 7:2/0 = 0
+7:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 8:2/0 = 0
+8:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 9:2/0 = 0
 10:2/0 = 0
 11:2/0 = 0
 0:3/0 = 0
 1:3/0 = 0
 2:3/0 = 0
+2:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 5:3/0 = 0
 6:3/0 = 0
 7:3/0 = 0
@@ -130,16 +160,26 @@ texture = ExtResource("3_wrm1d")
 3:8/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_wowpa"]
+physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_3dryh")
 
 [node name="Game" type="Node2D"]
+position = Vector2(39, 0)
 
 [node name="Level 1" parent="." instance=ExtResource("1_ebmjs")]
 
-[node name="TileMapLayer" type="TileMapLayer" parent="Level 1"]
-tile_map_data = PackedByteArray("AAD7/wEAAAAAAAAAAAD8/wEAAAAAAAAAAAD9/wEAAAAAAAAAAAD+/wEAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7/AAAAAAAAAAD+//7/AAAAAAAAAAD///7/AAAAAAAAAAACAAEAAAAAAAAAAAADAAEAAAAAAAAAAAAEAAEAAAAAAAAAAAAFAAEAAAAAAAAAAAAHAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAJAP//AAAAAAAAAAAKAP7/AAAAAAAAAAALAP3/AAAAAAAAAAAMAPz/AAAAAAAAAAANAPv/AAAAAAAAAAAOAPr/AAAAAAAAAAAPAPn/AAAAAAAAAAAQAPj/AAAAAAAAAAARAPf/AAAAAAAAAAASAPb/AAAAAAAAAAATAPX/AAAAAAAAAAAUAPT/AAAAAAAAAAAVAPP/AAAAAAAAAAAWAPL/AAAAAAAAAAAXAPH/AAAAAAAAAAAYAPH/AAAAAAAAAAAZAPH/AAAAAAAAAAAaAPH/AAAAAAAAAAAbAPH/AAAAAAAAAAAcAPH/AAAAAAAAAAAdAPH/AAAAAAAAAAAeAPD/AAAAAAAAAAAfAO//AAAAAAAAAAAgAO7/AAAAAAAAAAAhAO3/AAAAAAAAAAAiAOz/AAAAAAAAAAAjAOv/AAAAAAAAAAAkAOr/AAAAAAAAAAAlAOn/AAAAAAAAAAAmAOj/AAAAAAAAAAAnAOf/AAAAAAAAAAAoAOb/AAAAAAAAAAApAOX/AAAAAAAAAAAqAOT/AAAAAAAAAAArAOP/AAAAAAAAAAAsAOL/AAAAAAAAAAAtAOH/AAAAAAAAAAAuAOD/AAAAAAAAAAAvAN//AAAAAAAAAAAwAN7/AAAAAAAAAAAxAN3/AAAAAAAAAAAyANz/AAAAAAAAAAAzANv/AAAAAAAAAAA0ANr/AAAAAAAAAAA1ANn/AAAAAAAAAAA2ANj/AAAAAAAAAAA3ANf/AAAAAAAAAAA4ANb/AAAAAAAAAAA5ANX/AAAAAAAAAAA6ANT/AAAAAAAAAAA7ANP/AAAAAAAAAAA8ANL/AAAAAAAAAAA9ANH/AAAAAAAAAAA+AND/AAAAAAAAAAA/AM//AAAAAAAAAABAAM7/AAAAAAAAAABBAM7/AAAAAAAAAABCAM7/AAAAAAAAAABDAM7/AAAAAAAAAABEAM7/AAAAAAAAAABFAM7/AAAAAAAAAABGAM7/AAAAAAAAAABHAM7/AAAAAAAAAABIAM3/AAAAAAAAAABJAMz/AAAAAAAAAABAAND/AAAAAAAAAABBAND/AAAAAAAAAABCAND/AAAAAAAAAABDAND/AAAAAAAAAABEAND/AAAAAAAAAABFAND/AAAAAAAAAABGAND/AAAAAAAAAABHAND/AAAAAAAAAABIAND/AAAAAAAAAAABAP7/AAAAAAAAAAACAP7/AAAAAAAAAAAHAPv/AAAAAAAAAAAAAPX/AAAAAAAAAAABAPr/AAAAAAAAAAAGAPf/AAAAAAAAAAD9//3/AAAAAAAAAAD8//z/AAAAAAAAAAD7//v/AAAAAAAAAAADAP3/AAAAAAAAAAAEAPz/AAAAAAAAAAAFAPv/AAAAAAAAAAAAAPT/AAAEAAIAAAD///3/AAABAAYAAAAEAPv/AAABAAYAAAAHAPr/AAABAAYAAAAZAPD/AAABAAYAAAABAPn/AAABAAYAAAD8//v/AAABAAYAAAAGAPb/AAABAAYAAAAAAPP/AAABAAYAAAAFAPr/AAABAAYAAAD8/wAAAAABAAYAAAA=")
-tile_set = SubResource("TileSet_wowpa")
-
 [node name="Test_Player" parent="." instance=ExtResource("2_qxrlw")]
-position = Vector2(46, -39)
+position = Vector2(45, -53)
 script = null
+
+[node name="Bottom Boundary" type="StaticBody2D" parent="Test_Player"]
+position = Vector2(362.847, 179.957)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Test_Player/Bottom Boundary"]
+shape = SubResource("WorldBoundaryShape2D_wrm1d")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+position = Vector2(-4, -12)
+scale = Vector2(1, 1)
+tile_map_data = PackedByteArray("AAABAP7/AAAAAAAAAAACAP7/AAAAAAAAAAADAP7/AAAAAAAAAAAEAP7/AAAAAAAAAAAHAP//AAAAAAAAAAAJAP//AAAAAAAAAAAIAP//AAAAAAAAAAALAP3/AAAAAAAAAAAMAP3/AAAAAAAAAAAPAPv/AAAAAAAAAAAJAPr/AAAAAAAAAAAIAPn/AAAAAAAAAAACAPn/AAAAAAAAAAADAPn/AAAAAAAAAAAEAPn/AAAAAAAAAAD+//r/AAAAAAAAAAD7//z/AAAAAAAAAAD+//7/AAAAAAAAAAABAP//AAAAAAEAADACAP//AAAAAAEAADAEAP//AAAAAAEAADAIAAAAAAAAAAEAADAJAAAAAAAAAAEAADAMAP7/AAAAAAEAADADAPr/AAAAAAEAADACAPr/AAAAAAEAADD+//v/AAAAAAEAADD7//3/AAAAAAEAADD+////AAABAAEAADAEAPr/AAABAAEAADAPAPz/AAABAAAAAGAHAAAAAAABAAAAAGAIAPr/AAABAAAAAFADAP//AAABAAEAAAAOAPz/AAAAAAAAAAALAP7/AAABAAEAAAAKAPr/AAAAAAAAAAALAPr/AAAAAAAAAAA=")
+tile_set = SubResource("TileSet_wowpa")
